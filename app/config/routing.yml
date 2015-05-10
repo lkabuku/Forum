@@ -1,3 +1,7 @@
+laposte_comment:
+    resource: "@LaposteCommentBundle/Resources/config/routing.yml"
+    prefix:   /
+
 laposte_user:
     resource: "@LaposteUserBundle/Resources/config/routing.yml"
     prefix:   /

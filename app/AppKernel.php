@@ -19,8 +19,10 @@ class AppKernel extends Kernel
 
             new FOS\UserBundle\FOSUserBundle(),
             new Laposte\UserBundle\LaposteUserBundle(),
+            new FOS\CommentBundle\FOSCommentBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Laposte\CommentBundle\LaposteCommentBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

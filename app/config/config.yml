@@ -77,3 +77,10 @@ fos_user:
     db_driver: orm
     firewall_name: api
     user_class: Laposte\UserBundle\Entity\User
+
+fos_comment:
+    db_driver: orm
+    class:
+        model:
+            comment: Laposte\CommentBundle\Entity\Comment
+            thread: Laposte\CommentBundle\Entity\Thread
