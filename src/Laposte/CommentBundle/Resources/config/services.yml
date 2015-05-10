@@ -1,0 +1,4 @@
+services:
+#    laposte_comment.example:
+#        class: Laposte\CommentBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

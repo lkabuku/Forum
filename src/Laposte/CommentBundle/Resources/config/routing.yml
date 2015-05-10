@@ -1,0 +1,3 @@
+laposte_comment_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: LaposteCommentBundle:Default:index }
